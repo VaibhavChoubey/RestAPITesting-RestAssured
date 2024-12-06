@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Regression Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="User Test(failed)">
+    <classes>
+      <class name="UsersTest">
+        <methods>
+          <include name="getUsersList"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- UsersTest -->
+    </classes>
+  </test> <!-- User Test(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->
